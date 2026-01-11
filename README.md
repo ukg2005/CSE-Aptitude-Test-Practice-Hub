@@ -55,41 +55,40 @@ Each category is divided into **three difficulty levels**:
 
 ## 🗂️ Repository Structure
 
-The repository is organized for easy navigation and progressive learning. Each category has its own directory, with subdirectories for each difficulty level containing **100 questions with detailed solutions** in Markdown files.
+The repository is organized for easy navigation and progressive learning. Each category has its own directory, with subdirectories for each difficulty level containing **100 questions** separated into dedicated files:
 
 ```
-CSE-Aptitude-Test-Practice/
-├── Quantitative_Aptitude/
-│   ├── Basic/Quantitative_Aptitude_Basic.md (100 Qs + Solutions)
-│   ├── Intermediate/Quantitative_Aptitude_Intermediate.md (100 Qs + Solutions)
-│   ├── Advanced/Quantitative_Aptitude_Advanced.md (100 Qs + Solutions)
-├── Logical_Reasoning/
-│   ├── Basic/Logical_Reasoning_Basic.md (100 Qs + Solutions)
-│   ├── Intermediate/Logical_Reasoning_Intermediate.md (100 Qs + Solutions)
-│   ├── Advanced/Logical_Reasoning_Advanced.md (100 Qs + Solutions)
-├── Verbal_Ability/
-│   ├── Basic/Verbal_Ability_Basic.md (100 Qs + Solutions)
-│   ├── Intermediate/Verbal_Ability_Intermediate.md (100 Qs + Solutions)
-│   ├── Advanced/Verbal_Ability_Advanced.md (100 Qs + Solutions)
-├── Data_Interpretation/
-│   ├── Basic/Data_Interpretation_Basic.md (100 Qs + Solutions)
-│   ├── Intermediate/Data_Interpretation_Intermediate.md (100 Qs + Solutions)
-│   ├── Advanced/Data_Interpretation_Advanced.md (100 Qs + Solutions)
-├── Abstract_Reasoning/
-│   ├── Basic/Abstract_Reasoning_Basic.md (100 Qs + Solutions)
-│   ├── Intermediate/Abstract_Reasoning_Intermediate.md (100 Qs + Solutions)
-│   ├── Advanced/Abstract_Reasoning_Advanced.md (100 Qs + Solutions)
-├── Technical_Aptitude/
-│   ├── Basic/Technical_Aptitude_Basic.md (100 Qs + Solutions)
-│   ├── Intermediate/Technical_Aptitude_Intermediate.md (100 Qs + Solutions)
-│   ├── Advanced/Technical_Aptitude_Advanced.md (100 Qs + Solutions)
-├── README.md
+CSE-Aptitude-Test-Practice-Hub/
+├── 01 Quantitative Aptitude (Numerical Ability)/
+│   ├── 01 Basic/
+│   │   ├── README.md (100 Qs + Solutions)
+│   │   ├── Questions.md (100 Questions Only)
+│   │   └── Answers.md (100 Qs + Solutions)
+│   ├── 02 Intermediate/
+│   │   ├── README.md (100 Qs + Solutions)
+│   │   ├── Questions.md (100 Questions Only)
+│   │   └── Answers.md (100 Qs + Solutions)
+│   └── 03 Advance/
+│       ├── README.md (100 Qs + Solutions)
+│       ├── Questions.md (100 Questions Only)
+│       └── Answers.md (100 Qs + Solutions)
+├── 02 Logical Reasoning (Analytical Ability)/
+│   ├── 01 Basic/, 02 Intermediate/, 03 Advance/ (same structure)
+├── 03 Verbal Ability (English Comprehension)/
+│   ├── 01 Basic/, 02 Intermediate/, 03 Advance/ (same structure)
+├── 04 Data Interpretation and Analysis/
+│   ├── 01 Basic/, 02 Intermediate/, 03 Advance/ (same structure)
+├── 05 Abstract Reasoning (Non-Verbal Reasoning)/
+│   ├── 01 Basic/, 02 Intermediate/, 03 Advance/ (same structure)
+├── 06 Technical Aptitude (Basic Programming and AIML Concepts)/
+│   ├── 01 Basic/, 02 Intermediate/, 03 Advance/ (same structure)
+└── README.md
 ```
 
-Each Markdown file contains:
-- **100 questions** with clear problem statements.
-- **Detailed solutions** explaining the logic, steps, and tips for efficient solving.
-- **Topics covered** within the category for targeted practice.
+Each level directory contains three files:
+- **README.md**: Original file with 100 questions and detailed solutions combined.
+- **Questions.md**: Contains only the 100 question statements for practice.
+- **Answers.md**: Contains all 100 questions with detailed solutions and answers for review.
 
 ---
 
@@ -109,12 +108,16 @@ Follow these steps to make the most of the CSE Aptitude Test Practice Hub:
    - Begin with **Basic** to build confidence.  
    - Move to **Intermediate** for multi-step challenges.  
    - Tackle **Advanced** to prepare for tough test scenarios.  
-   Each level has **100 questions** with solutions in a single Markdown file (e.g., `Quantitative_Aptitude_Basic.md`).
+   Each level has **100 questions** available in separate files:
+   - **Questions.md**: Practice questions without answers for self-testing.
+   - **Answers.md**: Complete solutions and explanations for review.
+   - **README.md**: Combined questions and solutions in one file.
 
 4. **Practice Strategically**  
+   - Use **Questions.md** to test yourself without peeking at answers.
    - Solve 10–15 questions daily to maintain consistency.  
    - Time yourself (e.g., 1 minute per question) to simulate test conditions.  
-   - Review solutions to understand shortcuts and avoid mistakes.  
+   - Check **Answers.md** to review solutions and understand shortcuts.
    - Track your progress by noting weak areas (e.g., percentages, puzzles).
 
 5. **Leverage Technical Aptitude**  
